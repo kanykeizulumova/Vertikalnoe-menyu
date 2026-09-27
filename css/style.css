@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/InterMedium.woff2");
+    font-display: swap;
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+.menu {
+    max-width: 280px;
+    background-color: #111827;
+    border: 1px solid #243041;
+    border-radius: 24px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    list-style: none;
+}
+
+.link a {
+    border-radius: 16px;
+    padding: 16px;
+    display: flex;
+    gap: 12px;
+}
+
+.link a:hover {
+    cursor: pointer;
+    background-color: #3B82F626;
+}
+
+.active {
+    background-color: #3B82F626;
+}
+
+span {
+    color: #F8FAFC;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: normal;
+}
